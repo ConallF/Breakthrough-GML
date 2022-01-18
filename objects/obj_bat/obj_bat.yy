@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_brick",
-    "path": "sprites/spr_brick/spr_brick.yy",
+    "name": "spr_bat",
+    "path": "sprites/spr_bat/spr_bat.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_brick",
+  "name": "obj_bat",
   "tags": [],
   "resourceType": "GMObject",
 }
