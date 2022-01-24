@@ -10,5 +10,7 @@ if (bbox_top < 0)
 
 if (bbox_bottom > room_height)
 {
-// subtract life
+	global.player_lives -= 1;
+	instance_destroy();
+	instance_create_layer(xstart,ystart,"Instances",obj_ball);
 }
